@@ -27,8 +27,9 @@
 
 
 1. Clone repository and navigate to `adrians-react-tap-rooom`.
+  - Open **adrians-react-tap-room** folder from terminal.
 
-1. Run `npm install` to load required packages.
+2. Run `npm install` to load required packages.
 
 ### II. View/Build Project
 
@@ -40,22 +41,12 @@
 
 ## Known Bugs
 
-
-
-
-
 ### Clone
   * Clone this repo to your local machine from: https://github.com/adrianmess/adrians-react-tap-rooom
 
         $ git clone https://github.com/adrianmess/adrians-react-tap-rooom
 
-Open **adrians-react-tap-room** folder from terminal.
 
-
-### NPM Installation
-      $ npm install
-
-## Start Development server
 
 
 ## Known Bugs
