@@ -1,9 +1,15 @@
 import React from 'react';
 import Beer from './Beer';
 
+import ruby_zozzle from '../assets/images/drinks/ruby_zozzle.jpg';
+import tart_n_juicy from '../assets/images/drinks/tart_n_juicy.jpg';
+import hamms from '../assets/images/drinks/hamms.jpg';
+
+
 var masterBeerList = [
   {
       name: 'Ruby Zozzle',
+      img: ruby_zozzle,
       brewer: 'Hi-Wheel',
       description: 'Sparkling Wine & Grapefruit',
       abv: '6.8%',
@@ -11,6 +17,7 @@ var masterBeerList = [
     },
     {
       name: 'Tart N Juicy',
+      img: tart_n_juicy,
       brewer: 'Epic',
       description: 'Sour IPA',
       abv: '4.5%',
@@ -18,6 +25,7 @@ var masterBeerList = [
     },
     {
       name: 'Hamm\'s',
+      img: hamms,
       brewer: 'Miller/Coors',
       description: 'American Lager',
       abv: '4.7%',
@@ -52,6 +60,7 @@ function BeerList(){
       <hr/>
       {masterBeerList.map((beer, index) =>
         <Beer name={beer.name}
+          img={beer.img}
           brewer={beer.brewer}
           description={beer.description}
           abv={beer.abv}

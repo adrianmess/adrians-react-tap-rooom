@@ -4,13 +4,27 @@ import PropTypes from 'prop-types';
 function Beer(props){
   return (
     <div>
-      <h3>{props.name}</h3>
-      <p>{props.brewer}</p>
-      <p>{props.description}</p>
-      <p>{props.abv}</p>
-      <p>{props.price}</p>
-      <hr/>
+      <style>{`
+          img{
+            height:200px;
+          }
+
+            `}
+
+      </style>
+      <div className="images">
+          <img src={props.img}/>
+      </div>
+      <div>
+        <h3>{props.name}</h3>
+        <p>{props.brewer}</p>
+        <p>{props.description}</p>
+        <p>{props.abv}</p>
+        <p>{props.price}</p>
+        <hr/>
+      </div>
     </div>
+
   );
 }
 
