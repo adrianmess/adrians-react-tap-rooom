@@ -1,8 +1,7 @@
 import React from 'react'
 import Beer from '/Beer'
 
-const state = {
-  masterBeerList: [
+const masterBeerList = [
     {
       name: 'Ruby Zozzle',
       brewer: 'Hi-Wheel',
@@ -51,16 +50,21 @@ const state = {
       price: '6',
       remaining: '58'
     }
-  ]
-}
+  ];
+
 
 function Beerlist() {
   return (
     <div>
-      {masterBeerList.map((beer, index)) =>
-        <Beer name
-        />
-      }
+      {masterBeerList.map((beer, index) =>
+        <Beer name={beer.name}
+          brewer={beer.brewer}
+          desc={beer.desc}
+          abv={beer.abv}
+          price={beer.price}
+          remaining={beer.remaining}
+          key={index}/>
+      )}
     </div>
   );
 }

@@ -11,6 +11,8 @@ function App(){
     <div>
       <Header/>
       <Beer/>
+      <Body/>
+      <About/>
       <Switch>
         <Route exact path='/' component={Body} />
         <Route exact path='/about' component={About} />
