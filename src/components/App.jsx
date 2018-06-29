@@ -1,24 +1,19 @@
-import React from 'react'
-import Header from './Header'
-import About from './About'
-import Body from './Body'
-import Beer from './Beer'
-
-import { Switch, Route } from 'react-router-dom'
+import React from 'react';
+import Header from './Header';
+import BeerList from './BeerList';
+import Body from './Body';
+import { Switch, Route } from 'react-router-dom';
 
 function App(){
   return (
     <div>
       <Header/>
-      <Beer/>
-      <Body/>
-      <About/>
       <Switch>
         <Route exact path='/' component={Body} />
-        <Route exact path='/about' component={About} />
+        <Route exact path='/beer' component={BeerList} />
       </Switch>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
