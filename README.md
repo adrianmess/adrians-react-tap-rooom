@@ -9,6 +9,8 @@
 
 ### Component Structure
 
+<img src="./src/assets/img/1st-draft-diagram.png">
+
 ## User Story
 
 
