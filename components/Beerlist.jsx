@@ -2,7 +2,7 @@ import React from 'react'
 
 
 const state = {
-  masterKegList: [
+  masterBeerList: [
     {
       name: 'Ruby Zozzle',
       brewer: 'Hi-Wheel',
@@ -60,3 +60,5 @@ function Beerlist() {
     </div>
   );
 }
+
+export default Beerlist
