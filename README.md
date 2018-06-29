@@ -7,7 +7,7 @@
 
 ## Description
 
-
+### Component Structure
 
 ## User Story
 
