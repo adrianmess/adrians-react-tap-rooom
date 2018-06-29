@@ -14,8 +14,7 @@
 ## User Story
 
 
-## Specifications
-
+## Setup/Installation Requirements
 
 #### Pre-requisites
 
@@ -24,7 +23,27 @@
   * https://www.npmjs.com/get-npm
 
 
-  * Install
+### I. Project Setup
+
+
+1. Clone repository and navigate to `adrians-react-tap-rooom`.
+
+1. Run `npm install` to load required packages.
+
+### II. View/Build Project
+
+- Development Mode: `npm start`
+
+- Production Build: `npm run build`
+
+  1. Locate build files in `adrians-react-tap-rooom/build`.
+
+## Known Bugs
+
+
+
+
+
 ### Clone
   * Clone this repo to your local machine from: https://github.com/adrianmess/adrians-react-tap-rooom
 
