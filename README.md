@@ -26,11 +26,11 @@
 
   * Install
 ### Clone
-  * Clone this repo to your local machine from: https://github.com/adrianmess/tap-room-makeover
+  * Clone this repo to your local machine from: https://github.com/adrianmess/adrians-react-tap-rooom
 
-        $ git clone https://github.com/adrianmess/tap-room-makeover
+        $ git clone https://github.com/adrianmess/adrians-react-tap-rooom
 
-Open **tap-room-makeover** folder from terminal.
+Open **adrians-react-tap-room** folder from terminal.
 
 
 ### NPM Installation
@@ -47,14 +47,11 @@ Open **tap-room-makeover** folder from terminal.
 
 * HTML
 * CSS
-  * Bootstrap _(Bootstrap 4.1)_
 * JavaScript
-  * JQuery _(jQuery 3.2.1)_
+* React
 * Node.js
 * Webpack
 * ESLint
-* Jasmine
-* Karma
 * Babel
 
 ## License
@@ -62,12 +59,3 @@ Open **tap-room-makeover** folder from terminal.
 * GPL
 
 Adrian Messado © 2018
-
-<link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.css"><style>
-
-
-.flex-container {
-  display: flex;
-}
-
-</style>
