@@ -1,24 +1,25 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function Beer(props){
-  return(
-    <div className="beerContainer">
-      <h3 className="beerName">{props.name}props.name</h3>
-      <p className="beerBrewer">{props.brewer}props.brewer</p>
-      <p className="beerDesc">{props.brewer}props.desc</p>
-      <p className="beerAbv">{props.abv}props.abv</p>
-      <p className="beerPrice">{props.price}props.price</p>
+  return (
+    <div>
+      <h3>{props.name}</h3>
+      <p>{props.brewer}</p>
+      <p>{props.description}</p>
+      <p>{props.abv}</p>
+      <p>{props.price}</p>
+      <hr/>
     </div>
-  )
+  );
 }
 
 Beer.propTypes = {
   name: PropTypes.string.isRequired,
   brewer: PropTypes.string,
-  desc: PropTypes.string,
+  description: PropTypes.string,
   abv: PropTypes.string,
   price: PropTypes.string
-}
+};
 
-export default Beer
+export default Beer;
