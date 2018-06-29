@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Beer from '/Beer'
 
 const state = {
   masterBeerList: [
@@ -57,6 +57,10 @@ const state = {
 function Beerlist() {
   return (
     <div>
+      {masterBeerList.map((beer, index)) =>
+        <Beer name
+        />
+      }
     </div>
   );
 }
