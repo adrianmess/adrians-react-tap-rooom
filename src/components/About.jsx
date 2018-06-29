@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 
 function About(){
@@ -6,7 +6,7 @@ function About(){
     <div>
 
     </div>
-  );
+  )
 }
 
-export default About;
+export default About
