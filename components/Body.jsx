@@ -57,8 +57,10 @@ function Body() {
             border-style: solid;
             border-color: white;
             font-size: 2em;
-
           }
+
+          a:visited{color:white !important}
+
 
           `}</style>
         <div className="bodyTopImage"></div>
@@ -82,7 +84,7 @@ function Body() {
         </div>
 
         <div className="thirdBody parallax-section">
-            <p>About Us</p>
+            <p className="link"><a href='#' style={{textDecoration: 'none'}}>About Us</a></p>
         </div>
       </div>
 
