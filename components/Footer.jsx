@@ -6,10 +6,9 @@ function Footer(){
       <style>{`
           .footer {
             background-color: gray;
-            position:absolute;
             height: 100px;
             bottom:0;
-            width: 100%;
+            width: 98%;
           }
           `}
         </style>
