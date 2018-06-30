@@ -5,21 +5,35 @@ function Body() {
     <div className="bodyContainer">
       <style jsx>{`
 
-        div {
-          min-width:320px;
-        }
-        .bodyTopImage{
-          background: url(https://images.pexels.com/photos/791810/pexels-photo-791810.jpeg);
+          div {
+            min-width:320px;
+          }
+          .bodyTopImage{
+            background: url(https://images.pexels.com/photos/791810/pexels-photo-791810.jpeg);
             background-repeat: no-repeat;
             background-size: contain;
             background-position: center top;
             height: 40vh;
             margin: 0;
-        }
-      `}</style>
-    <div className="bodyTopImage"></div>
-    </div>
-  )
-}
+          }
+          `}</style>
+        <div className="bodyTopImage"></div>
 
-export default Body
+        <div className="secondBodyButtons">
+          <div className="events">
+            <h3>Events</h3>
+          </div>
+
+          <div className="whatOnTap">
+            <h3>What's On tap</h3>
+          </div>
+          <div className="location">
+            <h3>location</h3>
+          </div>
+        </div>        
+      </div>
+
+    )
+  }
+
+  export default Body
