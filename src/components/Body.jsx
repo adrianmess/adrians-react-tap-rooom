@@ -16,12 +16,16 @@ function Body() {
             height: 40vh;
             margin: 0;
           }
+          .bodyContainer {
+                        margin-bottom: 300px;
+          }
           `}</style>
         <div className="bodyTopImage"></div>
 
         <div className="secondBodyButtons">
           <div className="events">
             <h3>Events</h3>
+            <img src={require('../assets/images/drinks/hamms.jpg')} />
           </div>
 
           <div className="whatOnTap">
@@ -30,7 +34,7 @@ function Body() {
           <div className="location">
             <h3>location</h3>
           </div>
-        </div>        
+        </div>
       </div>
 
     )
