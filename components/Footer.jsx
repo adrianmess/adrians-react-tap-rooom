@@ -6,16 +6,15 @@ function Footer(){
       <style>{`
           .footer {
             background-color: gray;
+            position:absolute;
             height: 100px;
-            position: absolute;
+            bottom:0;
             width: 100%;
-            bottom: 0;
           }
-            `}
-      </style>
-      <p>Footer</p>
-    </div>
-  )
-}
+          `}
+        </style>
+      </div>
+    )
+  }
 
-export default Footer
+  export default Footer
