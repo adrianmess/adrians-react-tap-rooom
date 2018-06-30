@@ -8,7 +8,7 @@ function Footer(){
             background-color: black;
             height: 100px;
             bottom:0;
-            width: 99%;
+            width: 95%;
             margin: auto;
           }
           .copyright {
