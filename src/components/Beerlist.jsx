@@ -4,6 +4,10 @@ import Beer from './Beer';
 import ruby_zozzle from '../assets/images/drinks/ruby_zozzle.jpg';
 import tart_n_juicy from '../assets/images/drinks/tart_n_juicy.jpg';
 import hamms from '../assets/images/drinks/hamms.jpg';
+import prismatic from '../assets/images/drinks/prismatic.png';
+import juicy_haze from '../assets/images/drinks/juicy_haze.jpg';
+import _8_hop from '../assets/images/drinks/_8_hop.jpg';
+
 
 
 var masterBeerList = [
@@ -33,6 +37,7 @@ var masterBeerList = [
     },
     {
       name: 'Prismatic',
+      img: prismatic,
       brewer: 'Ninkasi',
       description: 'Juicy IPA',
       abv:  '5.9%',
@@ -40,6 +45,7 @@ var masterBeerList = [
     },
     {
       name: 'Juicy Haze',
+      img: juicy_haze,
       brewer: 'New Belgium',
       description: 'India Pale Ale',
       abv:  '7.5%',
@@ -47,6 +53,7 @@ var masterBeerList = [
     },
     {
       name: '8 Hop',
+      img: _8_hop,
       brewer: 'New Belgium',
       description: 'Pale Ale',
       abv:  '5.5%',
@@ -57,7 +64,6 @@ var masterBeerList = [
 function BeerList(){
   return (
     <div>
-      <hr/>
       {masterBeerList.map((beer, index) =>
         <Beer name={beer.name}
           img={beer.img}
