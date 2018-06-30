@@ -23,8 +23,8 @@ function App(){
         <Route exact path='/beer' component={BeerList} />
         <Route component={Error404} />
       </Switch>
-      <Footer/>
       <Information/>
+      <Footer/>
     </div>
   );
 }
