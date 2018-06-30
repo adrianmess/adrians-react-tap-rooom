@@ -3,7 +3,6 @@ import Header from './Header';
 import BeerList from './BeerList';
 import Body from './Body';
 import Footer from './Footer';
-import Information from './Information';
 import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
 
@@ -23,7 +22,6 @@ function App(){
         <Route exact path='/beer' component={BeerList} />
         <Route component={Error404} />
       </Switch>
-      <Information/>
       <Footer/>
     </div>
   );
