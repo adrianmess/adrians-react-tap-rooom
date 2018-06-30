@@ -11,23 +11,28 @@ function Beer(props){
             margin-left: 20%;
             margin-right: 20%;
             margin-top: 5%;
+            flex-direction: row;
+            min-width: 50vh;
+            justify-content: center;
           }
 
           img{
             height: 150px;
-            margin-right: 50px;
-          }
-          .images {
-            width: 200px;
+
+            justify-content: center;
+            border-radius: 50%;
+            display: block;
           }
 
+
           .beerInfo{
+            margin-left: 50px;
             max-height: 390px;
             max-width: 420px;
           }
           `}
         </style>
-        <div className="images">
+        <div className="imagesContainer">
           <img src={props.img}/>
         </div>
         <div className="beerInfo">
