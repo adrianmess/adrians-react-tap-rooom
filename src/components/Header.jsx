@@ -14,6 +14,9 @@ function Header(){
             background: rgba(255,255,255,.25);
             height: 72px;
             align-items: center;
+            max-width: 60vw;
+            margin-left:20%;
+
           }
           .link{
             text-decoration: none;
