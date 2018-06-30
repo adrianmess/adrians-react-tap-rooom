@@ -5,6 +5,8 @@ function Body() {
     <div className="bodyContainer">
       <style jsx>{`
           @import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500,500i,600,600i,700,700i,800,800i,900');
+          @import url('https://fonts.googleapis.com/css?family=Crete+Round');
+          @import url('https://fonts.googleapis.com/css?family=Anton');
 
           div {
             min-width:320px;
@@ -16,6 +18,7 @@ function Body() {
             background-position: center top;
             height: 40vh;
             margin: 0;
+
           }
 
           .secondBodyButtons{
@@ -66,24 +69,20 @@ function Body() {
           .infoContainer {
 
             display: flex;
-            justify-content: space-around;
+            flex-direction: row;
+            justify-content: center;
             margin-top: 10vh;
             margin-bottom: 10vh;
           }
           .infoBackground {
-            background: url(https://static1.squarespace.com/static/55b6c790e4b0f77417cc5568/t/59495ef7ff7c5041142a6483/1497980682373/Block15-ProperGlassware-ProperPour.png);
-            background-repeat: no-repeat;
-            background-size: contain, cover;
-            opacity: 0.8;
-            filter:  blur(2px);
             height: 300px;
             width: 70%;
             position: absolute;
             margin: auto;
           }
           .infotext {
-            backdrop-filter: blur(10px);
             position: relative;
+            background-color: rgb(255,255,255,0.5);
 
           }
           .infoContainer h3 {
@@ -91,17 +90,23 @@ function Body() {
             margin-top: 20px;
           }
           p {
+
+            font-size: 1.5rem;
             color: black;
             margin: .4em;
-            font-family: 'Raleway', sans-serif;
+            // font-family: 'Raleway', sans-serif;
+            font-family: 'Crete Round', serif;
+            // font-family: 'Anton', sans-serif;
             font-weight: 500;
             min-width: 300px;
+
           }
 
           .locationIcons{
             float: left;
             margin-right: .5em;
           }
+
 
           `}</style>
         <div className="bodyTopImage"></div>
