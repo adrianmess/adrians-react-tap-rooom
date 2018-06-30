@@ -2,7 +2,8 @@ import React from 'react';
 import Header from './Header';
 import BeerList from './BeerList';
 import Body from './Body';
-import Footer from './Footer'
+import Footer from './Footer';
+import Information from './Information';
 import { Switch, Route } from 'react-router-dom';
 
 function App(){
@@ -21,6 +22,7 @@ function App(){
         <Route exact path='/beer' component={BeerList} />
       </Switch>
       <Footer/>
+      <Information/>
     </div>
   );
 }
