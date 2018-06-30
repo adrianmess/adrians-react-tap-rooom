@@ -18,7 +18,6 @@ function Beer(props){
                   images {
                     max-width: 400px;
                   }
-  
 
                   .beerInfo{
                     max-height: 390px;
