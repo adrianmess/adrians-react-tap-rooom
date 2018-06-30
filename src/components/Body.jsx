@@ -87,7 +87,6 @@ function Body() {
             <p className="link"><a href='#' style={{textDecoration: 'none'}}>About Us</a></p>
         </div>
       </div>
-
     )
   }
 
