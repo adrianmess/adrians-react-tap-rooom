@@ -45,9 +45,19 @@ function Body() {
             background-attachment: fixed !important;
             background-repeat: no-repeat;
             background-size: cover !important;
-            text-align: center;
             overflow: hidden;
             // padding: 170px 0 184px 0;
+          }
+
+          .thirdBody > p {
+            margin: 15vh 40vw auto 40vw;
+            color: white;
+            text-align: center;
+            border-width: 2px;
+            border-style: solid;
+            border-color: white;
+            font-size: 2em;
+
           }
 
           `}</style>
@@ -72,7 +82,7 @@ function Body() {
         </div>
 
         <div className="thirdBody parallax-section">
-
+            <p>About Us</p>
         </div>
       </div>
 
