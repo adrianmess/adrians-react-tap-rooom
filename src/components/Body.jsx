@@ -17,7 +17,9 @@ function Body() {
             background-size: cover;
             background-position: center top;
             height: 40vh;
-            margin: 0 3.5vw;
+            margin: auto;
+            width: 80%;
+
           }
 
           .secondBodyButtons{
@@ -44,7 +46,7 @@ function Body() {
 
           .thirdBody {
             height: 30vh;
-            width: 95%;
+            width: 80%;
             color: black;
             background: url(https://images.pexels.com/photos/128242/pexels-photo-128242.jpeg);
             background-attachment: fixed !important;
