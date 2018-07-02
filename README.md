@@ -11,8 +11,6 @@
 
 <img src="./src/assets/images/1st-draft-diagram.png">
 
-## User Story
-
 
 ## Setup/Installation Requirements
 
