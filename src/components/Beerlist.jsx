@@ -1,5 +1,6 @@
 import React from 'react';
 import Beer from './Beer';
+import AddBeer from './AddBeer';
 
 import ruby_zozzle from '../assets/images/drinks/ruby_zozzle.jpg';
 import tart_n_juicy from '../assets/images/drinks/tart_n_juicy.jpg';
@@ -64,6 +65,7 @@ var masterBeerList = [
 function BeerList(){
   return (
     <div>
+      <AddBeer/>
       {masterBeerList.map((beer, index) =>
         <Beer name={beer.name}
           img={beer.img}
