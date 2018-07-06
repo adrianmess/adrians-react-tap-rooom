@@ -2,6 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 function NewBeerForm() {
+   let _names = null;
+  let _location = null;
+  let _issue = null;
+
 function handleNewBeerFormSubmission(event) {
     event.preventDefault();
   }
