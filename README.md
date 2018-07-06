@@ -9,7 +9,7 @@
 
 ### Component Structure
 
-<img src="./src/assets/images/1st-draft-diagram.png">
+<img src="./src/assets/images/2nd-diagram.png">
 
 
 ## Setup/Installation Requirements
