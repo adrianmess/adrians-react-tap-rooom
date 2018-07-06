@@ -14,23 +14,28 @@ function NewBeerForm(props){
         <input
           type='text'
           id='names'
-          placeholder='Beer Name'/>
+          placeholder='Beer Name'
+          ref={(input) => {_name = input;}}/>
         <input
           type='text'
           id='brewer'
-          placeholder='Brewer Name'/>
+          placeholder='Brewer Name'
+          ref={(input) => {_brewerName = input;}}/>
         <textarea
           type='text'
           id='description'
-          placeholder='Beer Description'/>
+          placeholder='Beer Description'
+          ref={(input) => {_beerDescription = input;}}/>
         <textarea
           type='text'
           id='abv'
-          placeholder='Alcohol by volume'/>
+          placeholder='Alcohol by volume'
+          ref={(input) => {_abv = input;}}/>
         <textarea
           type='text'
           id='price'
-          placeholder='Price'/>
+          placeholder='Price'
+          ref={(input) => {_price = input;}}/>
         <button type='submit'>Add</button>
       </form>
     </div>
