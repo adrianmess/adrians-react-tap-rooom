@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 function NewBeerForm(props){
   return (
     <div>
-      <form>
+      <form onSubmit={handleNewBeerFormSubmission}>
         <input
           type='text'
           id='names'
