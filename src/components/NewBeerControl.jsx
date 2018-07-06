@@ -9,14 +9,20 @@ class NewBeerControl extends React.Component {
     this.state = {
       formVisibleOnPage: false
     };
+    this.handleAddBeerConfirmation =
+    this.handleAddBeerConfirmation.bind(this);
+  }
+
+  handleAddBeerConfirmation(){
+    this.setState({formVisibleOnPage: true});
   }
 
   render(){
       let currentlyVisibleContent = null;
       if (this.state.formVisibleOnPage){
-        currentlyVisibleContent = <NewBeerForm />;
+        currentlyVisibleContent = <NewBeerForm onNewBeerCreation={this.props.onNewBeerCreation}/>;
       } else {
-        currentlyVisibleContent = <ConfirmationQuestion />;
+        currentlyVisibleContent = <ConfirmationQuestion onAddBeerConfirmation={this.handleAddBeerConfirmation}/>;
       }
       return (
         <div>
