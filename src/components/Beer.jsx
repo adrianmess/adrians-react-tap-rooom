@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 
 function Beer(props){
@@ -33,9 +32,6 @@ function Beer(props){
           }
           `}
         </style>
-        <div className="beerTableHeader">
-          <a>Click to add Beer to list:</a><Link to='/addbeer' style={{textDecoration: 'none'}}><span><a>Add</a></span></Link>
-        </div>
         <div className="imagesContainer">
           <img src={props.img}/>
         </div>
