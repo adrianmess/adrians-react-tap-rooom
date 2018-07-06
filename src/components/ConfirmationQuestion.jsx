@@ -1,5 +1,5 @@
 import React from 'react';
-import React from 'prop-types'
+import PropTypes from 'prop-types'
 
 function ConfirmationQuestion(props){
   return (
