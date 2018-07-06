@@ -7,26 +7,42 @@ import NewBeerControl from './NewBeerControl';
 import Error404 from './Error404';
 import { Switch, Route } from 'react-router-dom';
 
-function App(){
-  return (
-    <div className="bodyContainer">
-      <style> {`
-          .bodyContainer {
-            min-width: 320px;
-          }
+class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      masterBeerList: []
+    };
+    this.handleAddingNewBeerToList = this.handleAddingNewBeerToList.bind(this);
+  }
+
+  handleAddingNewBeerToList(newBeer){
+    var newMasterBeerList = this.state.masterBeerList.slice();
+    newMasterBeerList.push(newBeer);
+    this.setState({masterBeerList: newMasterBeerList});
+  }
+
+  render(){
+    return (
+      <div className="bodyContainer">
+        <style> {`
+            .bodyContainer {
+              min-width: 320px;
+            }
             `}
 
-      </style>
-      <Header/>
-      <Switch>
-        <Route exact path='/' component={Body} />
-        <Route exact path='/beer' component={BeerList} />
-        <Route exact path='/addbeer' component={NewBeerControl} />
-        <Route component={Error404} />
-      </Switch>
-      <Footer/>
-    </div>
-  );
-}
+          </style>
+          <Header/>
+          <Switch>
+            <Route exact path='/' component={Body} />
+            <Route exact path='/beer' component={BeerList} />
+            <Route exact path='/addbeer' component={NewBeerControl} />
+            <Route component={Error404} />
+          </Switch>
+          <Footer/>
+        </div>
+      );
+    }
 
-export default App;
+    export default App;
