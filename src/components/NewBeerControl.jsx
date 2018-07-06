@@ -1,6 +1,7 @@
 import React from 'react';
 import ConfirmationQuestion from './ConfirmationQuestion';
 import NewBeerForm from './NewBeerForm';
+import PropTypes from 'prop-types'
 
 class NewBeerControl extends React.Component {
 
