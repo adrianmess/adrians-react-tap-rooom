@@ -19,13 +19,13 @@ function Footer(){
           }
 
           `}
-        </style>
+      </style>
 
-          <p className="copyright">Copyright @ Adrians Tap Room 2018</p>
+      <p className="copyright">Copyright @ Adrians Tap Room 2018</p>
 
 
-      </div>
-    )
-  }
+    </div>
+  )
+}
 
-  export default Footer
+export default Footer

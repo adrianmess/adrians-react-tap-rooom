@@ -1,5 +1,5 @@
 import React from 'react'
-import ruby_zozzle from '../assets/images/drinks/ruby_zozzle.jpg';
+import ruby_zozzle from '../assets/images/drinks/ruby_zozzle.jpg'
 
 function Information(){
   return (
@@ -30,28 +30,28 @@ function Information(){
           }
           `}
 
-        </style>
-        <div className="Location infotext">
-          <h3>Location</h3>
-        </div>
-
-        <div className="Social infotext">
-          <h3>Social</h3>
-        </div>
-
-        <div className="Hours infotext">
-          <h3>Hours</h3>
-          <p>Saturday & Sunday Brunch 10am - 3 pm</p>
-          <p>Sunday 10AM–12:00AM</p>
-          <p>Monday 11AM–12:00AM</p>
-          <p>Tuesday 11AM–12:00AM</p>
-          <p>Wednesday 11AM–12:00AM</p>
-          <p>Thursday 11AM–12:00AM</p>
-          <p>Friday 11AM–2AM</p>
-          <p>Saturday 10AM–2AM</p>
-        </div>
+      </style>
+      <div className="Location infotext">
+        <h3>Location</h3>
       </div>
-    )
-  }
 
-  export default Information
+      <div className="Social infotext">
+        <h3>Social</h3>
+      </div>
+
+      <div className="Hours infotext">
+        <h3>Hours</h3>
+        <p>Saturday & Sunday Brunch 10am - 3 pm</p>
+        <p>Sunday 10AM–12:00AM</p>
+        <p>Monday 11AM–12:00AM</p>
+        <p>Tuesday 11AM–12:00AM</p>
+        <p>Wednesday 11AM–12:00AM</p>
+        <p>Thursday 11AM–12:00AM</p>
+        <p>Friday 11AM–2AM</p>
+        <p>Saturday 10AM–2AM</p>
+      </div>
+    </div>
+  )
+}
+
+export default Information

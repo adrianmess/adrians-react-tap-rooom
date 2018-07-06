@@ -1,10 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Header(){
   return (
-      <div className="navigation">
-        <style jsx>{`
+    <div className="navigation">
+      <style jsx>{`
           @import url('https://fonts.googleapis.com/css?family=Montserrat');
           .navigation{
             display: flex;
@@ -24,10 +24,10 @@ function Header(){
             font-size: 1.5em;
           }
         `}</style>
-        <Link to="/" style={{ textDecoration: 'none'}}><p className="link">Home</p></Link>
-        <Link to="/beer" style={{textDecoration: 'none'}}><p className="link">Beer</p></Link>
+      <Link to="/" style={{ textDecoration: 'none'}}><p className="link">Home</p></Link>
+      <Link to="/beer" style={{textDecoration: 'none'}}><p className="link">Beer</p></Link>
     </div>
-  );
+  )
 }
 
-export default Header;
+export default Header

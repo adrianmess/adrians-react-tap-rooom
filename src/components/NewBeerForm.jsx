@@ -1,6 +1,7 @@
-import React from 'react';
+import React from 'react'
+import PropTypes from 'prop-types'
 
-function NewBeerForm(){
+function NewBeerForm(props){
   return (
     <div>
       <form>
@@ -27,7 +28,11 @@ function NewBeerForm(){
         <button type='submit'>Add</button>
       </form>
     </div>
-  );
+  )
 }
 
-export default NewBeerForm;
+NewBeerForm.propTypes = {
+  onNewBeerCreation: PropTypes.func
+}
+
+export default NewBeerForm
