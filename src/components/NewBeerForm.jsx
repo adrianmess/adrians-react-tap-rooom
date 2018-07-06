@@ -1,6 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+function NewBeerForm() {
+function handleNewBeerFormSubmission(event) {
+    event.preventDefault();
+  }
+
+
 function NewBeerForm(props){
   return (
     <div>
