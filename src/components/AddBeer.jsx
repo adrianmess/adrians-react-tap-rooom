@@ -5,7 +5,10 @@ function AddBeer(){
   return (
     <div>
       <style>{`
-
+          .beerTableHeader{
+            display: flex;
+            justify-content: flex-end; 
+          }
             `}
       </style>
       <div className="beerTableHeader">
