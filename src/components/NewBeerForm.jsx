@@ -37,12 +37,12 @@ function NewBeerForm(props) {
           type='text'
           id='brewer'
           placeholder='Brewer Name'
-          ref={(input) => {_brewerName = input;}}/>
+          ref={(input) => {_brewer = input;}}/>
         <textarea
           type='text'
           id='description'
           placeholder='Beer Description'
-          ref={(input) => {_beerDescription = input;}}/>
+          ref={(input) => {_description = input;}}/>
         <textarea
           type='text'
           id='abv'
