@@ -34,7 +34,7 @@ class NewBeerControl extends React.Component {
 }
 
 NewBeerControl.propTypes = {
-  onNewTicketCreation: PropTypes.func
+  onNewBeerCreation: PropTypes.func
 }
 
 export default NewBeerControl
