@@ -13,6 +13,7 @@ function BeerList(props){
           description={beer.description}
           abv={beer.abv}
           price={beer.price}
+          dateCreated={beer.dateCreated}
           key={beer.id}/>
       )}
     </div>
