@@ -16,7 +16,7 @@ function NewBeerForm(props) {
     console.log(_description.value);
     console.log(_abv.value);
     console.log(_price.value);
-    props.onNewBeerCreation({name: _name.value, brewer: _brewer.value, description: _description.value, abv: _abv.value, price: _price.value});
+    props.onNewBeerCreation({name: _name.value, brewer: _brewer.value, description: _description.value, abv: _abv.value, price: _price.value, id: v4()});
     _name.value = '';
     _brewer.value = '';
     _description.value = '';
