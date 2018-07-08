@@ -4,7 +4,6 @@ import AddBeer from './AddBeer'
 import PropTypes from 'prop-types'
 
 function BeerList(props){
-  console.log(props.beerList)
   return (
     <div>
       <AddBeer/>
