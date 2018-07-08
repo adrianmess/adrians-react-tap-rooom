@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { v4 } from 'uuid'
+import Moment from 'moment'
 
 function NewBeerForm(props) {
   let _name = null;
@@ -11,7 +12,7 @@ function NewBeerForm(props) {
 
   function handleNewBeerFormSubmission(event) {
     event.preventDefault();
-    props.onNewBeerCreation({name: _name.value, brewer: _brewer.value, description: _description.value, abv: _abv.value, price: _price.value, id: v4()});
+    props.onNewBeerCreation({name: _name.value, brewer: _brewer.value, description: _description.value, abv: _abv.value, price: _price.value, id: v4(), dateCreated: new Moment()});
     _name.value = '';
     _brewer.value = '';
     _description.value = '';
