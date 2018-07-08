@@ -7,9 +7,8 @@ function BeerList(props){
   return (
     <div>
       <AddBeer/>
-      {masterBeerList.map((beer, index) =>
+      {props.beerList.map((beer, index) =>
         <Beer name={beer.name}
-          img={beer.img}
           brewer={beer.brewer}
           description={beer.description}
           abv={beer.abv}
