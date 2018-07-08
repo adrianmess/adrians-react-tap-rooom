@@ -36,11 +36,11 @@ function Beer(props){
         <img src={props.img}/>
       </div>
       <div className="beerInfo">
-        <h3>{props.name}</h3>
-        <p>{props.brewer}</p>
-        <p>{props.description}</p>
-        <p>{props.abv}</p>
-        <p>{props.price}</p>
+        <h3>Name: {props.name}</h3>
+        <p>Brewer: {props.brewer}</p>
+        <p>Desc: {props.description}</p>
+        <p>Abv %: {props.abv}</p>
+        <p>Price: {props.price}</p>
       </div>
     </div>
   )
