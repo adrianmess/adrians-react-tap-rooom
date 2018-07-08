@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Moment from 'moment'
 
 function Beer(props){
   return (
@@ -41,9 +42,14 @@ function Beer(props){
         <p>Desc: {props.description}</p>
         <p>Abv %: {props.abv}</p>
         <p>Price: {props.price}</p>
+        <p>Date Added: {props.dateCreated}</p>
       </div>
     </div>
   )
+}
+
+function displayDateCrated(dateCreated) {
+  return dateCreated.from(new Moment(), true);
 }
 
 Beer.propTypes = {
@@ -51,7 +57,8 @@ Beer.propTypes = {
   brewer: PropTypes.string,
   description: PropTypes.string,
   abv: PropTypes.string,
-  price: PropTypes.string
+  price: PropTypes.string,
+  dateCreated: PropTypes.string
 }
 
 export default Beer
