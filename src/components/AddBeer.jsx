@@ -7,12 +7,13 @@ function AddBeer(){
       <style>{`
           .beerTableHeader{
             display: flex;
-            justify-content: flex-end; 
+            justify-content: flex-end;
           }
             `}
       </style>
       <div className="beerTableHeader">
-        <a>Click to add Beer to list:</a><Link to='/addbeer' style={{textDecoration: 'none'}}><span><a>Add</a></span></Link>
+        <a>Click to add Beer to list:</a>
+        <Link to='/addbeer' style={{textDecoration: 'none'}}><span><a>Add</a></span></Link>
       </div>
 
     </div>
