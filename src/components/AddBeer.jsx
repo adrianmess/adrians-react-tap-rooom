@@ -13,7 +13,7 @@ function AddBeer(){
       </style>
       <div className="beerTableHeader">
         <a>Click to add Beer to list:</a>
-        <Link to='/addbeer' style={{textDecoration: 'none'}}><span><a>Add</a></span></Link>
+        <Link to='/addbeer' style={{textDecoration: 'none'}}><span>Add</span></Link>
       </div>
 
     </div>
