@@ -25,7 +25,7 @@ function Header(){
           }
         `}</style>
       <Link to="/" style={{ textDecoration: 'none'}}><p className="link">Home</p></Link>
-      <Link to="/beer" style={{textDecoration: 'none'}}><p className="link">Beer</p></Link>
+      <Link to="/beers" style={{textDecoration: 'none'}}><p className="link">Beer</p></Link>
     </div>
   )
 }

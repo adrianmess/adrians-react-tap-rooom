@@ -36,7 +36,7 @@ class App extends React.Component {
         <Header/>
         <Switch>
           <Route exact path='/' component={Body} />
-          <Route exact path='/beer' render={()=><BeerList beerList={this.state.masterBeerList} />} />
+          <Route exact path='/beers' render={()=><BeerList beerList={this.state.masterBeerList} />} />
           <Route exact path='/addbeer' render={()=><NewBeerControl onNewBeerCreation={this.handleAddingNewBeerToList} />} />
           <Route component={Error404} />
         </Switch>
