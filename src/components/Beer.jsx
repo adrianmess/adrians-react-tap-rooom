@@ -42,7 +42,7 @@ function Beer(props){
         <p>Desc: {props.description}</p>
         <p>Abv %: {props.abv}</p>
         <p>Price: {props.price}</p>
-        <p>Date Added: {props.dateCreated}</p>
+        <p>Date Added: {displayDateCreated(props.dateCreated)}</p>
       </div>
     </div>
   )
