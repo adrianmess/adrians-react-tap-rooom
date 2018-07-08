@@ -1,8 +1,9 @@
 import React from 'react'
 import Beer from './Beer'
 import AddBeer from './AddBeer'
+import PropTypes from 'prop-types'
 
-function BeerList(){
+function BeerList(props){
   return (
     <div>
       <AddBeer/>
@@ -17,6 +18,10 @@ function BeerList(){
       )}
     </div>
   )
+}
+
+BeerList.propTypes = {
+  beerList: PropTypes.array
 }
 
 export default BeerList
