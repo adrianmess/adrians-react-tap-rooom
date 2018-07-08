@@ -48,7 +48,7 @@ function Beer(props){
   )
 }
 
-function displayDateCrated(dateCreated) {
+function displayDateCreated(dateCreated) {
   return dateCreated.from(new Moment(), true);
 }
 
