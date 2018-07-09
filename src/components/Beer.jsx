@@ -49,7 +49,7 @@ function Beer(props){
 }
 
 function displayDateCreated(dateCreated) {
-  return dateCreated.from(new Moment(), true);
+  return dateCreated.from(new Moment(), true)
 }
 
 Beer.propTypes = {
